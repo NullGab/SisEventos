@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
   position: absolute; 
   inset: 0; 
   z-index: 1; 
-  background-image: url('../fundo-conexoes.svg');
+  background-image: url('fundo-conexoes.png');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
