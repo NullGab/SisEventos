@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SisEventos - Painel de Eventos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard-body">
+
+  <nav class="navbar">
+    <div class="navbar-brand">SisEventos</div>
+    <div class="navbar-menu">
+      <a href="painel.html" class="ativo">Eventos</a>
+      <a href="agenda.html">Minha Agenda</a>
+      <a href="minhas-atividades.html">Minhas Atividades</a>
+      <button id="btn-sair" class="btn-logout">Sair</button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="page-header">
+      <h2>Eventos Disponíveis</h2>
+      <p id="saudacao-usuario">A carregar...</p>
+    </header>
+
+    <!-- Contentor onde o JavaScript vai injetar os eventos -->
+    <div id="grid-eventos" class="grid-cards">
+      <!-- Os cartões entram aqui via JS -->
+    </div>
+  </main>
+
+  <script src="js/painel.js"></script>
+</body>
+</html>

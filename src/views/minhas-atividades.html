@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SisEventos - Minhas Atividades</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard-body">
+
+  <!-- Barra de Navegação -->
+  <nav class="navbar">
+    <div class="navbar-brand">SisEventos</div>
+    <div class="navbar-menu">
+      <a href="painel.html">Eventos</a>
+      <a href="agenda.html">Minha Agenda</a>
+      <a href="minhas-atividades.html" class="ativo">Minhas Atividades</a>
+      <a href="relatorios.html">Relatórios</a>
+      <button id="btn-sair" class="btn-logout">Sair</button>
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <header class="page-header">
+      <h2>Meu Histórico e Certificados</h2>
+      <p>Consulte as atividades das quais você participou e emita seus certificados de conclusão.</p>
+    </header>
+
+    <!-- Grelha onde os certificados aparecerão -->
+    <div id="grid-historico" class="grid-cards">
+      <!-- Os cartões entram aqui via JS -->
+    </div>
+  </main>
+
+  <script src="js/minhas-atividades.js"></script>
+</body>
+</html>
